@@ -6,7 +6,7 @@
 #    By: abakirca <abakirca@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/07 15:21:23 by abakirca          #+#    #+#              #
-#    Updated: 2024/11/07 15:32:05 by abakirca         ###   ########.fr        #
+#    Updated: 2024/11/07 17:58:31 by abakirca         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ LIBFT               = ./libft/libft.a
 MLX				  	= $(MLX_DIR)libmlx_Linux.a
 RM                  = rm -rf
 
-SRCS                = $(GNL_DIR)get_next_line.c $(GNL_DIR)get_next_line_utils.c $(SRC_DIR)main.c
+SRCS                = $(GNL_DIR)get_next_line.c $(GNL_DIR)get_next_line_utils.c $(SRC_DIR)main.c $(SRC_DIR)draw.c $(SRC_DIR)ft_dispose.c $(SRC_DIR)init_ray.c $(SRC_DIR)map_control.c $(SRC_DIR)map_copy.c $(SRC_DIR)map_data_control.c $(SRC_DIR)map_devided_h.c $(SRC_DIR)map_utils.c $(SRC_DIR)map.c $(SRC_DIR)mlx_initialize.c $(SRC_DIR)movement.c $(SRC_DIR)path_control.c $(SRC_DIR)raycasting.c $(SRC_DIR)rgb.c $(SRC_DIR)set_ray_coordinate.c $(SRC_DIR)texture.c $(SRC_DIR)utils.c
 
 OBJ                 = $(patsubst $(SRC_DIR)%.c,$(OBJ_DIR)%.o,$(SRCS))
 
